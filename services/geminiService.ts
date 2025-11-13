@@ -1,4 +1,3 @@
-
 import { GoogleGenAI } from "@google/genai";
 import { AnalysisMode } from '../types';
 
@@ -13,7 +12,7 @@ function getPrompt(code: string, mode: AnalysisMode, learnMode: boolean): string
     ? "You are in 'Learn Mode'. Explain everything in detail as if teaching a beginner. Cover underlying concepts, syntax, and best practices."
     : "";
   
-  const baseIntro = `You are CodeInsight, an expert AI programming assistant. Analyze the following code snippet and provide your analysis in Markdown format. ${learnQualifier}`;
+  const baseIntro = `You are Codewords, an expert AI programming assistant. Analyze the following code snippet and provide your analysis in Markdown format. ${learnQualifier}`;
 
   switch (mode) {
     case 'explain':

@@ -1,5 +1,5 @@
 {
-  "name": "CodeInsight – AI Debug & Code Explainer",
+  "name": "Codewords – AI Debug & Code Explainer",
   "description": "An AI-powered developer tool that explains your code, finds bugs, and suggests improvements line by line. Features a special 'learn mode' for in-depth understanding.",
   "requestFramePermissions": []
 }

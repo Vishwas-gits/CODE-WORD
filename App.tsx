@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { CodeEditor } from './components/CodeEditor';
 import { Controls } from './components/Controls';
@@ -40,7 +39,7 @@ const App: React.FC = () => {
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
             <LogoIcon className="w-8 h-8 text-cyan-400" />
-            <h1 className="text-xl font-bold text-white tracking-tight">CodeInsight</h1>
+            <h1 className="text-xl font-bold text-white tracking-tight">Codewords</h1>
           </div>
         </div>
       </header>
